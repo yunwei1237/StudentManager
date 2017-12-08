@@ -1,0 +1,38 @@
+@CHARSET "UTF-8";
+/* 超小型设备  */
+@media only screen and (max-width: 768px) {
+	*{
+		font-size:2px;
+	}
+	button{
+		font-size:2px;
+	}
+	#container{
+		width:90%;
+	}
+}
+/* 小型设备  */
+@media only screen and (min-width: 768px) {
+	/* font-size:10px; */
+	#container{
+		width:80%;
+	}
+}
+/* 中型设置  */
+@media only screen and (min-width: 992px) {
+	#container{
+		width:80%;
+	}
+}
+/* 超大设备  */
+@media only screen and (min-width: 1200px) {
+	
+}
+
+.hide{
+	display: none;
+}
+.content{
+	width:100%;
+	padding-top:20px;
+}
